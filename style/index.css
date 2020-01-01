@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+*:focus{
+    box-shadow: none !important;
+    outline:none;
+}
+
+.app-name{
+    font-family: 'Faster-one', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+input{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 20px !important;
+    border-radius: 50px;
+    background: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Francois One',sans-serif;
+}
+
+.generate-btn{
+    border-radius: 50px !important;
+    padding: 8px 20px;
+    background-color: white !important;
+    font-weight: bold;
+}
+
+.submit-btn{
+    background-color: black !important;
+    padding:10px 20px;
+    color:white !important;
+}
+
+.password-box
+{
+    width: 100% !important;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+}
+#password{
+    width: 100% !important;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+}
+.show-icon{
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    color: #ccc;
+    z-index: 1;
+    cursor: pointer;
+    font-size:18px;
+}
+
+.email-box
+{
+    width: 100% !important;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+}
+#email{
+    width: 100% !important;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+}
+.email-loader{
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    color: #ccc;
+    z-index: 1;
+    cursor: pointer;
+    font-size:18px;
+}
+
+/* end signup coding */
+
+
+/* start login coding */
+
+/* .login-submit-btn{
+    background-color: black !important;
+    padding:10px 20px;
+    color:white !important;
+} */
+
+.login-show-icon
+{
+        position: absolute;
+        top: 30%;
+        right: 15px;
+        color: #ccc;
+        z-index: 1;
+        cursor: pointer;
+        font-size:18px;
+}
+
+/* end login coding */
